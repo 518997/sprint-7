@@ -9,21 +9,58 @@
     <nav>
         <ul>
             <li><img id="logo" src="images/logo.png" alt="La Sarthe "></li>
-            <li><a href="index.html#Home">Home</a></li>
-            <li><a href="index.html#Informatie">Informatie</a></li>
-            <li><a href="index.html#Michelin">Michelin</a></li>
-            <li><a href="index.html#La-Sarthe-Travel">La Sarthe Travel</a></li>
-             <li><a href="index.html#Reserveren">Reserveren</a></li>
+            <li><a href="Index.html#Home">Home</a></li>
+            <li><a href="Michelin.html#Michelin">Michelin</a></li>
+            <li><a href="La-Sarthe-Travel.html#La-Sarthe-Travel">La Sarthe Travel</a></li>
+            <li><a href="Reserveren.html#Reserveren">Reserveren</a></li>
         </ul>
     </nav>
-    <div class="Foto">
-        <img class="heures" src="images/24-heures.jpg" alt="24 heures Le mans">
-        <h1>24 heures <br> <span class="Le-mans">Le mans</span> </h1>
+
+    <img class="kaart" src="images/kaart.png.webp" alt="">
+    <div id="land-informatie">
+        <!----informatie------>
     </div>
+     
+    <script src="script.js">
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Voeg een klikgebeurtenis toe aan de afbeelding
+        document.querySelector('.kaart').addEventListener('click', function(event) {
+            // Controleer of het geklikte element een land is
+            if (event.target.classList.contains('land')) {
+                // Verkrijg de naam van het land uit de alt-attribuut van de afbeelding
+                var landNaam = event.target.alt;
+    
+                // Verkrijg de informatie over het land (je kunt dit aanpassen naar je eigen behoeften)
+                var landInformatie = getLandInformatie(landNaam);
+    
+                // Toon de informatie over het land
+                document.getElementById('land-informatie').innerHTML = landInformatie;
+            }
+        });
+    
+        // Simulatie van het verkrijgen van informatie over het land
+        function getLandInformatie(land) {
+            // Dit is een simulatie van het verkrijgen van informatie over het land
+            // Hier zou je je eigen logica kunnen toevoegen om informatie over verschillende landen op te halen
+            if (land === 'Frankrijk') {
+                return '<h2>Frankrijk</h2><p>Informatie over Frankrijk...</p>';
+            } else if (land === 'Duitsland') {
+                return '<h2>Duitsland</h2><p>Informatie over Duitsland...</p>';
+            } else if (land === 'Nederland') {
+                return '<h2>Nederland</h2><p>Informatie over Nederland...</p>';
+            } else {
+                return '<h2>' + land + '</h2><p>Geen informatie beschikbaar.</p>';
+            }
+        }
+    });
+    </script>
 
 
 
     <footer>
-        <p class="project">Project: Rianne, Rana, Mariska, Sagaana</p>
+        <p class="project">Project: Rana, Mariska, Rianne, Sagaana </p>
      </footer>
+
 </body>
+</html>
