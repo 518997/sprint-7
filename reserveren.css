@@ -47,29 +47,30 @@ nav ul li {
 }
 
 nav ul li a{
-    padding-right: 15px;
+    padding-right: 10px;
 
 }
 
 li{
  margin: 8px;
- padding-left: 30px;
- padding-right: 30px;
+ padding-left: 20px;
+ padding-right: 20px;
 }
  
  a{
     color: #f7eded;
     text-decoration: none;
-    font-size: 25PX;
+    font-size: 21PX;
     font-weight: 500;
 
 }
 
 #logo{
-    height: 140px;
-    width: 150px;
-    float: left;
-    margin-right: 350px;
+    margin-top: -25px;
+    height: 145px;
+    width: 145px;
+    float: right;
+    margin-right: 700px;
 }
 
 nav ul li a:hover{
@@ -78,36 +79,91 @@ nav ul li a:hover{
 }
 
 
-.heures {
-    width: 100%;
 
-}
-
-.Foto h1{
-    color: white;
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    font-size: 60px;
-    font-weight: 700;
-}
-
-.Le-mans{
-    font-size: 50px;
-    font-weight: 600;
-}
-
-h2{
+.dikke-lijnen{
+    margin-top: 270px;
     color: #f7eded;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 600;
     text-align: center;
 }
 
-.container{
+.dikke-lijnen {
+    position: relative;
+    display: inline-block;
+  }
   
+  .dikke-lijnen::before,
+  .dikke-lijnen::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 50px; /* Breedte van de lijn aanpassen */
+    height: 4px; /* Hoogte/dikte van de lijn aanpassen */
+    background-color: black; /* Kleur van de lijn aanpassen */
+  }
+  
+  .dikke-lijnen::before {
+    left: 200px; /* Afstand van de lijn aanpassen aan de linkerzijde van het woord */
+  }
+  
+  .dikke-lijnen::after {
+    right: -60px; /* Afstand van de lijn aanpassen aan de rechterzijde van het woord */
+  }
+ 
+.reservation-form input[type="text"]
+ {
+font-size: 30px;
+width: 400px;
+height: 50px;
+margin: 10px;
+padding: 10px;
+margin-left: 500px;
+
+}
+.reservation-form input[type="achternaam"] {
+font-size: 30px;
+width: 400px;
+height: 50px;
+margin: 10px;
+padding: 10px;
+
 }
 
+
+
+.reservation-form input[type="item"],
+.reservation-form input[type="email"],
+.reservation-form input[type="telefoonnummer"],
+.reservation-form input[type="aantal personen"]
+
+ {
+     font-size: 30px;
+     width: 850px;
+     height: 50px;
+     margin: 10px;
+     padding: 10px;
+     margin-left: 500px;
+}
+
+.reservation-form textarea[type="commentaar"]{
+    font-size: 30px;
+    width: 850px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 500px;
+}
+
+
+.reservation-form button[type="submit"] {
+    font-size: 30px;
+    width: 300px;
+    height: 90px;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 500px;
+}
 
 
 
