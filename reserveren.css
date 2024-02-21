@@ -79,36 +79,37 @@ nav ul li a:hover{
 }
 
 
-.heures {
-    width: 100%;
 
-}
-
-.Foto h1{
-    color: white;
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    font-size: 60px;
-    font-weight: 700;
-}
-
-.Le-mans{
-    font-size: 50px;
-    font-weight: 600;
-}
-
-.line-word{
+.dikke-lijnen{
+    margin-top: 270px;
     color: #f7eded;
     font-size: 70px;
     font-weight: 600;
     text-align: center;
 }
 
-
-
-
-
+.dikke-lijnen {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dikke-lijnen::before,
+  .dikke-lijnen::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 50px; /* Breedte van de lijn aanpassen */
+    height: 4px; /* Hoogte/dikte van de lijn aanpassen */
+    background-color: black; /* Kleur van de lijn aanpassen */
+  }
+  
+  .dikke-lijnen::before {
+    left: 200px; /* Afstand van de lijn aanpassen aan de linkerzijde van het woord */
+  }
+  
+  .dikke-lijnen::after {
+    right: -60px; /* Afstand van de lijn aanpassen aan de rechterzijde van het woord */
+  }
  
 .reservation-form input[type="text"]
  {
