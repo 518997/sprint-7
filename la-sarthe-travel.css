@@ -81,11 +81,145 @@ nav ul li a:hover{
 
 
 .kaart{
-    width: 70%;
+    width: 60%;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 300px;
+    margin-left: 400px;
 }
+
+.AA-TERTRE-ROUGE{
+    color: #f7eded;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+.P-EXPO{
+    color: #f7eded;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+.AA-GARAGE-VERT{
+    color: #f7eded;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+.AA-HOUX-ANNEXE{
+    color: #f7eded;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+.AA-HIPPODROME{
+    color: #f7eded;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+.HIPPODROOM-30-M²{
+    color: #f7eded;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+.AA–ÉPINETTES{
+    color: #f7eded;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+.AA–HOUX{
+    color: #f7eded;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+.AA-CLOS-FLEURI{
+    color: #f7eded;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+.BEAUSÉJOUR{
+    color: #f7eded;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+.PZ54-CAMPING-CARS{
+    color: #f7eded;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+.AA-ARNAGE{
+    color: #f7eded;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+.P-ARNAGE{
+    color: #f7eded;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+.title{
+    font-size: 50px;
+}
+.strong{
+        font-size: 35px;
+        font-weight: 600;
+        text-decoration: underline rgb(168, 30, 30);
+}
+
+.strong-yellow{
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: underline rgb(214, 237, 110);
+}
+
+.strong-green{
+        font-size: 35px;
+        font-weight: 600;
+        text-decoration: underline rgb(22, 200, 66);
+}
+
+.strong-underline{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+
 
 
 .project{
