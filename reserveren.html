@@ -21,8 +21,24 @@
             <form class="reservation-form" action="betaling.html" method="post">
             <input reguired type="text" id="naam" name="naam" placeholder="Voer jouw voornaam in"> 
             <input reguired type="achternaam" id="achternaam" name="achternaam" placeholder="Voer jouw achternaam in"><br>
-            <input required type="Item" id="Item 1" name="Item 1" placeholder="Item 1"> <br>
-            <input required type="email" id="email" name="email" placeholder="Vul hier uw e-mail in"> <br>
+            <select required name="plaatsen" id="plaatsen">
+                <option value="0">Kies een plaats</option>
+                <option value="AA-TERTRE ROUGE">AA-TERTRE ROUGE</option>
+                <option value="P-EXPO">P-EXPO</option>
+                <option value="AA-GARAGE VERT">AA-GARAGE VERT</option>
+                <option value="AA-HOUX ANNEXE">AA-HOUX ANNEXE</option> 
+                <option value="AA-HIPPODROME">AA-HIPPODROME</option> 
+                <option value="AA–ÉPINETTES">AA–ÉPINETTES</option> 
+                <option value="AA–HOUX">AA–HOUX</option> 
+                <option value="AA-CLOS FLEURI">AA-CLOS FLEURI</option> 
+                <option value="PZ54-CAMPING-CARS">PZ54-CAMPING-CARS</option> 
+                <option value="AA-ARNAGE">AA-ARNAGE</option> 
+                <option value="P-ARNAGE*">P-ARNAGE*</option> 
+                <option value="AA–MULSANNE">AA–MULSANNE</option> 
+                </select><br>
+            <input required type="woonplaats" id="woonplaats" name="woonplaats" placeholder="Vul hier uw woonplaats in"><br>
+            <input required type="postcode en huisnummer" id="postcode en huisnummer" name="postcode en huisnummer" placeholder="Vul hier uw postcode en huisnummer in"> <br>
+            <input required type="email" id="email" name="email" placeholder="Vul hier uw e-mail in"><br>
             <input required type="telefoonnummer" id="telefoonnummer" name="telefoonnummer" placeholder="Voer je telefoonnummer in (e.g. +14155552675)"><br>
             <input required type="aantal personen" id="aantal personen" name="aantal personen" placeholder="Aantal personen"> <br>
             <textarea type="commentaar" placeholder="Schrijf een commentaar..."></textarea><br>

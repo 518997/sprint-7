@@ -129,7 +129,9 @@ padding: 10px;
 
 
 
-.reservation-form input[type="item"],
+
+.reservation-form input[type="woonplaats"],
+.reservation-form input[type="postcode en huisnummer"],
 .reservation-form input[type="email"],
 .reservation-form input[type="telefoonnummer"],
 .reservation-form input[type="aantal personen"]
@@ -141,6 +143,16 @@ padding: 10px;
      margin: 10px;
      padding: 10px;
      margin-left: 500px;
+}
+
+.reservation-form select[id="plaatsen"]{
+    font-size: 30px;
+     width: 850px;
+     height: 50px;
+     margin: 10px;
+     padding: 10px;
+     margin-left: 500px;
+
 }
 
 .reservation-form textarea[type="commentaar"]{
@@ -161,15 +173,6 @@ padding: 10px;
     padding: 10px;
     margin-left: 500px;
 }
-
-
-
-
-
-
-
-
-
 
 
 .project {
