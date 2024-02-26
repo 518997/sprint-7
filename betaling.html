@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triple Crown</title>
-    <link rel="stylesheet" href="reserveren.css">
+    <link rel="stylesheet" href="betaling.css">
 </head>
 <body>
     <nav>
@@ -16,28 +16,35 @@
         </ul>
     </nav>
 
+    
     <h2>Bestelling inleveren binnen 5 werkdagen</h2>
-    
+        <h2>Reserveringsdetails</h2>
     <div id="reserveringsdetails"></div>
-    
+
     <script>
-        var plaatsen = new Array(12);
-        plaatsen[0] = {"naam" : "AA-TERTRE ROUGE"};
-        plaatsen[1] = {"naam" : "P-EXPO"};
-        plaatsen[2] = {"naam" : "AA-GARAGE VERT"};
-        plaatsen[3] = {"naam" : "AA-HOUX ANNEXE"};
-        plaatsen[4] = {"naam" : "AA-TERTRE ROUGE"};
-        plaatsen[0] = {"naam" : "AA-TERTRE ROUGE"};
-        plaatsen[0] = {"naam" : "AA-TERTRE ROUGE"};
-        plaatsen[0] = {"naam" : "AA-TERTRE ROUGE"};
-        plaatsen[0] = {"naam" : "AA-TERTRE ROUGE"};
-        plaatsen[0] = {"naam" : "AA-TERTRE ROUGE"};
-        plaatsen[0] = {"naam" : "AA-TERTRE ROUGE"};
-        plaatsen[0] = {"naam" : "AA-TERTRE ROUGE"};
+        // Functie om URL-parameters te krijgen
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        };
 
-        function zoekalgoritme
+        // Haal de ingediende formuliergegevens op van de URL-parameters
+        var plaats = getUrlParameter('plaatsen');
+        var aantalPersonen = getUrlParameter('aantal personen');
 
-    
+        // Toon de reserveringsdetails op de pagina
+        var reserveringsdetailsElement = document.getElementById('reserveringsdetails');
+        reserveringsdetailsElement.innerHTML = '<p><strong>Gekozen plaats:</strong> ' + plaats + '</p>' +
+                                               '<p><strong>Aantal personen:</strong> ' + aantalPersonen + '</p>';
+
+        // Bereken de prijs op basis van het aantal personen (hier kun je je eigen prijslogica toevoegen)
+        var prijsPerPersoon = 50; // Voorbeeldprijs per persoon
+        var totalePrijs = aantalPersonen * prijsPerPersoon;
+
+        // Toon de totale prijs op de pagina
+        reserveringsdetailsElement.innerHTML += '<p><strong>Totale prijs:</strong> €' + totalePrijs.toFixed(2) + '</p>';
     </script>
 
 
