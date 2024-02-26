@@ -197,19 +197,19 @@ nav ul li a:hover{
 .strong{
         font-size: 35px;
         font-weight: 600;
-        text-decoration: underline rgb(168, 30, 30);
+        color: rgb(237, 23, 23);
 }
 
 .strong-yellow{
     font-size: 35px;
     font-weight: 600;
-    text-decoration: underline rgb(214, 237, 110);
+    color: rgb(214, 237, 110);
 }
 
 .strong-green{
         font-size: 35px;
         font-weight: 600;
-        text-decoration: underline rgb(22, 200, 66);
+        color: rgb(22, 200, 66);
 }
 
 .strong-underline{
