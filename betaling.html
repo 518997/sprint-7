@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triple Crown</title>
     <link rel="stylesheet" href="betaling.css">
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID"></script>
 </head>
 <body>
     <nav>
@@ -47,9 +48,35 @@
         reserveringsdetailsElement.innerHTML += '<p><strong>Totale prijs:</strong> €' + totalePrijs.toFixed(2) + '</p>';
     </script>
 
-
-
-
+    <h2>Betaalmethoden</h2>
+    <div class="vista-front-back">
+        <div class="vista-front">
+            <div class="card-number-container">
+                <input type="number" class="vista-number" id="cardnumber" placeholder="Card Number">
+            </div>
+            <div class="card-holder-name">
+                <input type="text" class="vista-name" id="cvv-number" placeholder="CVV">
+            </div>
+              <div class="vista-logo">
+                <img src="" alt="vista">
+            </div>
+        </div>
+        <div class="vista-back-container">
+            <div class="empty-div-gray"></div>
+            <div class="cvv-card">
+                <input type="number" class="cvv-number" id="cvvNumber" placeholder="CVV">
+            </div>
+        </div>
+        <div class="sendButton" id="sendButton">Pay</div>
+    </div>
+    <div class="order-info-container">
+        <div class="payment-result">
+            <input type="text" placeholder="Payment result will appear here">
+        </div>
+    </div>
+</div>
+</body>
+    
 
     
     <footer>
