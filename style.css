@@ -24,6 +24,16 @@ body{
 
 }
 
+.langWrap{
+    padding: 5px;
+    background: #0b3867
+}
+.active {
+    margin-left: 900px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(216, 68, 68);
+}
 nav{
     width: 100%;
     float: right;
@@ -79,6 +89,8 @@ nav ul li a:hover{
     margin-right: 700px;
     
 }
+
+
 
 .heures {
     width: 100%;
