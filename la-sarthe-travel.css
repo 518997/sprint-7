@@ -98,7 +98,7 @@ nav ul li a:hover{
     margin-left: 400px;
 }
 
-.AA-TERTRE-ROUGE{
+.AA_TERTRE_ROUGE{
     color: #f7eded;
     font-size: 20px;
     line-height: 1.5;
@@ -202,8 +202,14 @@ nav ul li a:hover{
     margin-right: 500px;
 }
 
-.title{
+.Ahmed{
     font-size: 50px;
+}
+
+.strong_2{
+        font-size: 35px;
+        font-weight: 600;
+        color: rgb(237, 23, 23);
 }
 .strong{
         font-size: 35px;
@@ -316,6 +322,9 @@ nav ul li a:hover{
         text-align: center;
     }
 }
+
+
+
 
 
 
