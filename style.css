@@ -25,7 +25,7 @@ body{
 }
 
 .langWrap{
-    padding: 5px;
+    padding: 10px;
     background: #0b3867
 }
 .active {
@@ -42,7 +42,7 @@ nav{
 
  nav ul{
     text-align: center;
-    margin: 40px;
+    margin: 18px;
     padding-left: 0;
     
     
@@ -90,6 +90,72 @@ nav ul li a:hover{
     
 }
 
+.search-li {
+list-style-type: none;
+
+}
+
+.search-form {
+position: relative;
+display: inline-block;
+margin-left: 1300px;
+}
+
+.search-input {
+
+width: 200px;
+
+height: 30px;
+
+padding: 5px;
+
+border: 1px solid rgba(77, 77, 255, 0.7);
+
+border-radius: 15px;
+
+font-size: 14px;
+
+background-color: rgba(106, 122, 203, 0.5);
+
+outline: none;
+
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.search-button {
+
+position: absolute;
+
+right: 10px;
+
+top: 50%;
+
+transform: translateY(-50%);
+
+padding: 5px 10px;
+
+background-color: rgba(0, 0, 0, 0.7);
+
+color: #ffffff;
+
+border: none;
+
+border-radius: 20px;
+
+cursor: pointer;
+
+font-size: 15px;
+
+outline: none;
+
+}
+
+.search-button:hover {
+
+background-color: #1409ea;
+
+}
 
 
 .heures {
@@ -125,7 +191,12 @@ nav ul li a:hover{
  }
 
  .inleiding{
+    font-size: 20px;
+    line-height: 1.5;
 
+ }
+
+  .inleiding_2 {
     font-size: 20px;
     line-height: 1.5;
 

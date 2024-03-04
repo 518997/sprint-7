@@ -17,12 +17,18 @@
             <li><a href="Michelin.html#Michelin">Michelin</a></li>
             <li><a href="La-Sarthe-Travel.html#La-Sarthe-Travel">La Sarthe Travel</a></li>
             <li><a href="Reserveren.html#Reserveren">Reserveren</a></li>
+             <li class="search-bar">
+                <form action="#" method="get" class="search-form" id="searchForm" onsubmit="return search()">
+                    <input type="text" name="q" placeholder="Search..." class="search-input" id="searchInput">
+                    <button type="submit" class="search-button">Search</button>
+                    </form>
+                </li>
         </ul>
     </nav>
 
     <img class="kaart" src="images/kaart.png.webp" alt="24h Le Mans">
        
-     <p class="AA-TERTRE-ROUGE"><strong class="Ahmed">24 uur van Le Mans</strong> <br><strong class="strong_2">AA-TERTRE ROUGE<br></strong> 
+     <p class="AA_TERTRE_ROUGE"><strong class="title">24 uur van Le Mans</strong> <br><strong class="strong_2">AA-TERTRE ROUGE<br></strong> 
         Gelegen binnen het circuitterrein, met uitzicht op de Goodyear Voetgangersbrug en de Esses van Tertre Rouge, is dit beboste kampeergebied toegankelijk voor auto's + tent/caravan of camperbusjes.
         Aanbevolen als u toegang wilt tot tribunes Panorama (4), Goodyear (5), het dorp en het amusementsgebied (concert en kermis). <br>
         Vanuit Le Mans, Alençon, Rennes of Parijs moet u de ROUGE-route volgen bij aankomst in de omgeving van het circuit.<br>
@@ -31,6 +37,35 @@
             - Prijs per voertuig voor een 35m² niet-genummerde plek (1 ticket = 1 voertuig = 35m²). <br>
             - Sanitaire voorzieningen (douches en toiletten). Geen elektriciteitsvoorziening.<br>
             - Algemene toegang voor voetgangers is niet inbegrepen, u moet er een hebben om de camping te betreden.</p>
+<script>
+    const langEl = document.querySelector('.langWrap');
+    const links = document.querySelectorAll('a');
+    const titleEl = document.querySelector('.title');
+    const AA_TERTRE_ROUGEEls = document.querySelectorAll('.AA_TERTRE_ROUGE');
+
+    const data = {
+        "english": {
+            title:  "24 hours of Le Mans",
+            AA_TERTRE_ROUGE: [
+                "Located within the circuit grounds, overlooking the Goodyear Pedestrian Bridge and the Esses of Tertre Rouge, this wooded camping area is accessible to cars + tent/caravan or camper vans. Recommended if you want access to the Panorama (4), Goodyear (5), the village and the entertainment area (concert and fair) stands. From Le Mans, Alençon, Rennes or Paris, you must follow the ROUGE route when arriving in the circuit area.",
+            ]   
+        }
+    };
+
+    links.forEach(link => {
+        link.addEventListener('click', () => {
+            links.forEach(link => link.classList.remove('active'));
+            link.classList.add('active');
+
+            const attr = link.getAttribute('language');
+            titleEl.textContent = data[attr].title;
+
+            AA_TERTRE_ROUGEEls.forEach((AA_TERTRE_ROUGEEl, index) => {
+                AA_TERTRE_ROUGEEl.innerHTML = data[attr].AA_TERTRE_ROUGE[index];
+            });
+        });
+    });
+</script>
 
      <p class="P-EXPO"><strong class="strong"> P–PANORAMA<br>(parkeerplaats)<br>P-EXPO<br></strong>Dit is een van de kleinere locaties en ligt buiten het circuit, maar op slechts een paar minuten lopen van de hoofdingang en het automuseum. 
         Op het eerste gezicht ziet deze plek er niet erg charmant uit, maar het heeft zeker een paar voordelen. Er zijn veel vee schuren op dit veld, waarin veel mensen hun tent opzetten en wat een groot voordeel kan zijn als het zwaar regent
@@ -146,51 +181,16 @@
         There’s also an open drain for those wanting to dispose of ‘stuff’ from caravans/campers. <br>
      </p>
 
-  
-    <script>
-    const langEl = document.querySelector('.langWrap');
-    const links = document.querySelectorAll('a');
-    let AhmedEl = document.querySelector('.Ahmed');
-    let strong_2Els = document.querySelectorAll('.strong_2');
-    let paragraphs = document.querySelectorAll('p');
-
-    const data = {
-        "english": {
-            Ahmed: "24 Hours of Le Mans",
-            strong_2: "AA-TERTRE ROUGE",
-         },
-        AA_TERTRE_ROUGE: "Located inside the circuit enclosure, with a view on the Goodyear Footbridge and the Esses of Tertre Rouge, this wooded camping area is accessible to cars + tent/caravan or camper vans. Recommended if you wish to access grandstands Panorama (4), Goodyear (5), the Village and entertainment area (concert and fun fair). From Le Mans, Alençon, Rennes or Paris, you need to follow the ROUGE itinerary when arriving in the circuit surroundings.",
-
-        
-        // Voeg hier de vertalingen van de andere paragrafen toe
-    };
-
-    links.forEach(link => {
-        link.addEventListener('click', () => {
-            links.forEach(link => link.classList.remove('active'));
-            link.classList.add('active');
-
-            const attr = link.getAttribute('language');
-            AhmedEl.textContent = data[attr].Ahmed;
-
-            strong_2Els.forEach((strong_2El, index) => {
-                strong_2El.textContent = data[attr].strong_2;
-            });
-
-            // Vertaal en plaats de tekst van de paragrafen
-            paragraphs.forEach(paragraph => {
-                const className = paragraph.getAttribute('class');
-                if (data[attr][className]) {
-                    paragraph.textContent = data[attr][className];
-                }
-            });
-        });
-    });
-</script>
-
     <footer>
         <p class="project">Project: Rana, Mariska, Rianne, Sagaana </p>
      </footer>
 
+     <script src="script.js"></script>
+
 </body>
 </html>
+
+
+
+
+
