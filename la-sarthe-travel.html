@@ -22,7 +22,7 @@
 
     <img class="kaart" src="images/kaart.png.webp" alt="24h Le Mans">
        
-     <p class="AA_TERTRE_ROUGE"><strong class="Ahmed">24 uur van Le Mans</strong> <br><strong class="strong_2">AA-TERTRE ROUGE<br></strong> 
+     <p class="AA-TERTRE-ROUGE"><strong class="Ahmed">24 uur van Le Mans</strong> <br><strong class="strong_2">AA-TERTRE ROUGE<br></strong> 
         Gelegen binnen het circuitterrein, met uitzicht op de Goodyear Voetgangersbrug en de Esses van Tertre Rouge, is dit beboste kampeergebied toegankelijk voor auto's + tent/caravan of camperbusjes.
         Aanbevolen als u toegang wilt tot tribunes Panorama (4), Goodyear (5), het dorp en het amusementsgebied (concert en kermis). <br>
         Vanuit Le Mans, Alençon, Rennes of Parijs moet u de ROUGE-route volgen bij aankomst in de omgeving van het circuit.<br>
@@ -150,16 +150,17 @@
     <script>
     const langEl = document.querySelector('.langWrap');
     const links = document.querySelectorAll('a');
-    const AhmedEl = document.querySelector('.Ahmed');
-    const strong_2Els = document.querySelectorAll('.strong_2');
-    const paragraphs = document.querySelectorAll('p');
+    let AhmedEl = document.querySelector('.Ahmed');
+    let strong_2Els = document.querySelectorAll('.strong_2');
+    let paragraphs = document.querySelectorAll('p');
 
     const data = {
         "english": {
             Ahmed: "24 Hours of Le Mans",
             strong_2: "AA-TERTRE ROUGE",
-            AA_TERTRE_ROUGE: "Located inside the circuit enclosure, with a view on the Goodyear Footbridge and the Esses of Tertre Rouge, this wooded camping area is accessible to cars + tent/caravan or camper vans. Recommended if you wish to access grandstands Panorama (4), Goodyear (5), the Village and entertainment area (concert and fun fair). From Le Mans, Alençon, Rennes or Paris, you need to follow the ROUGE itinerary when arriving in the circuit surroundings.",
          },
+        AA_TERTRE_ROUGE: "Located inside the circuit enclosure, with a view on the Goodyear Footbridge and the Esses of Tertre Rouge, this wooded camping area is accessible to cars + tent/caravan or camper vans. Recommended if you wish to access grandstands Panorama (4), Goodyear (5), the Village and entertainment area (concert and fun fair). From Le Mans, Alençon, Rennes or Paris, you need to follow the ROUGE itinerary when arriving in the circuit surroundings.",
+
         
         // Voeg hier de vertalingen van de andere paragrafen toe
     };
