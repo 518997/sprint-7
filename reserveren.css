@@ -214,9 +214,7 @@ padding: 10px;
 .reservation-form input[type="woonplaats"],
 .reservation-form input[type="postcode en huisnummer"],
 .reservation-form input[type="email"],
-.reservation-form input[type="telefoonnummer"],
-.reservation-form input[type="aantal personen"]
-
+.reservation-form input[type="telefoonnummer"]
  {
      font-size: 30px;
      width: 850px;
@@ -226,7 +224,8 @@ padding: 10px;
      margin-left: 500px;
 }
 
-.reservation-form select[id="plaatsen"]{
+.reservation-form select[id="plaatsen"],
+.reservation-form select[id="aantal personen"]{
     font-size: 30px;
      width: 870px;
      height: 90px;

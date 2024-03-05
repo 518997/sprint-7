@@ -28,50 +28,102 @@
     </nav>
 
     
-    <h2>Bestelling inleveren binnen 5 werkdagen</h2>
-        <h2>Reserveringsdetails</h2>
+    <h2 class="bestelling">Bestelling inleveren binnen 5 werkdagen</h2>
+        <h2 class="reservering">Reserveringsdetails</h2>
     <div id="reserveringsdetails"></div>
 
    <script>
+        var parameters = new URLSearchParams(window.location.search);
+        
+        var selectedPlaatsen = parameters.get("plaatsen");
+        var selectedAantalPersonen = parameters.get("aantal personen");
+        var prijsPerPersoon = 30; 
+        var totalePrijs = selectedAantalPersonen * prijsPerPersoon;  
 
-    
+
+        var result = document.querySelector('#reserveringsdetails');
+        result.innerHTML = '<p class = "details"> Gekozen plaats: ' + selectedPlaatsen + '<br>' +
+                           'Aantal personen: ' + selectedAantalPersonen + '<br>' + "Totale prijs: € " + totalePrijs.toFixed(2);
    </script>
 
-
-
-    <h2>Betaalmethoden</h2>
-    <div class="vista-front-back">
-        <div class="vista-front">
-            <div class="card-number-container">
-                <input type="number" class="vista-number" id="cardnumber" placeholder="Card Number">
+    
+    <dv class="container">
+        <h1>Bevesig uw betaling</h1>
+        <div class="eerste-rij">
+            <div class="eigenaar">
+                <h3>eigenaar</h3>
+                <div class="invoer-veld">
+                    <input type="tekst">
+                </div>
             </div>
-            <div class="card-holder-name">
-                <input type="text" class="vista-name" id="cvv-number" placeholder="CVV">
-            </div>
-              <div class="vista-logo">
-                <img src="" alt="vista">
-            </div>
-        </div>
-        <div class="vista-back-container">
-            <div class="empty-div-gray"></div>
-            <div class="cvv-card">
-                <input type="number" class="cvv-number" id="cvvNumber" placeholder="CVV">
+            <div class="CVV">
+                <h3>CVV</h3>
+                <div class="invoer-veld">
+                    <input type="wachtwoord">
+                </div>
             </div>
         </div>
-        <div class="sendButton" id="sendButton">Pay</div>
-    </div>
-    <div class="order-info-container">
-        <div class="payment-result">
-            <input type="text" placeholder="Payment result will appear here">
+          <div class="tweede-rij">
+            <div class="kaartnummer">
+                <h3>kaartnummer</h3>
+                <div class="invoer-veld">
+                    <input type="tekst">
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+          <div class="derde-rij">
+            <div class="kaartnummer">
+                <h3>kaartnummer</h3>
+                <div class="selectie">
+                     <div class="datum"></div>
+                     <select name="maand" id="maand">
+                        <option value="Jan">Jan</option>
+                         <option value="Feb">Feb</option>
+                          <option value="Mar">Mar</option>
+                           <option value="Apr">Apr</option>
+                            <option value="Mei">Mei</option>
+                             <option value="Jun">Jun</option>
+                              <option value="Jul">Jul</option>
+                               <option value="Aug">Aug</option>
+                                <option value="Sep">Sep</option>
+                                 <option value="Okt">Okt</option>
+                                  <option value="Nov">Nov</option>
+                                   <option value="Dec">Dec</option>
+                     </select>
+                     <select name="jaar" id="jaar">
+                         <option value="2020">2020></option>
+                         <option value="2019">2019></option>
+                         <option value="2018">2018></option>
+                         <option value="2017">2017></option>
+                         <option value="2016">2016></option>
+                         <option value="2015">2015></option>
+                     </select>
+                    </div>
+                    <div class="kaarten">
+                        <img src="images/mc.png" alt="">
+                        <img src="images/vi.png" alt="">
+                        <img src="images/pp.png" alt="">
 
+                </div>
+            </div>
+        </div>
+        <a-2 href="">Bevestig</a-2>
+    </dv>
+    
     
     <footer>
         <p class="project">Project: Rana, Mariska, Rianne, Sagaana </p>
      </footer>
 
-     <script src="script.js"></scrip>
+     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+ 
+
+
+
+
+ 
