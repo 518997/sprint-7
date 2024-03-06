@@ -25,22 +25,29 @@ body{
 }
 
 .langWrap{
+    width: 100%;
     padding: 10px;
-    background: #0b3867
-}
-.active {
-    margin-left: 900px;
-    font-weight: 600;
-    font-size: 20px;
-    color: rgb(216, 68, 68);
+    background: #0b3867;
 }
 
+.active {
+    background-color: rgb(216, 68, 68);
+    font-weight: 600;
+    font-size: 20px;
+    color:  #061b31;
+    padding: 10px;
+    text-align: center;
+}
+
+li .active:hover{
+    color: white;
+
+}
 nav{
     width: 100%;
     float: right;
     background-color: #061b31;
 }
-
  nav ul{
     text-align: center;
     margin: 40px;
@@ -178,6 +185,227 @@ background-color: #1409ea;
     font-size: 50px;
     font-weight: 600;
 }
+
+
+
+div.header {
+	height: 200px;
+	background:#061b31;
+	}
+
+div.header .navigatie {
+	margin-right: 300px;
+    display: inline-block;
+    list-style-type: none;
+    height: 45px;
+    background:#061b31;
+	float: right;
+	margin-top: 85px;
+	color: #fff;
+}
+
+div.header .navigatie a { color: #fff; }
+
+div.header #logo {
+    margin-top: 0px;
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin-right: 50px;
+	margin-top:0px;
+    
+}
+
+div.logo img {
+	height:100%;
+	width: 100%;
+}
+
+section.content {
+	
+	background-image: url("../images/24-heures.jpg");
+	background-size: cover;
+	height: 600px;
+}
+
+
+
+
+div.textphoto {
+
+	color: #fff;
+	justify-content: center;
+	
+}
+
+
+.content2 {
+    position: float;
+    width:950px;
+    height:215px;
+    color:red;
+}
+
+.footer {
+    color: #fff;
+    background: #061b31;
+    height: 100px;
+}
+
+.block1 {
+	width: 650px;
+	height: 200px;
+	background: #fff;
+	margin-top: -100px;
+	margin-bottom: 100px;
+	margin-left: 25px;
+	border-radius: 20px;
+}
+.block2 {
+	width: 650px;
+	height: 200px;
+	background: #fff;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	margin-left: 25px;
+	border-radius: 20px;
+}
+
+.block3 {
+	width: 650px;
+	height: 200px;
+	background: #fff;
+	margin-top: -600px;
+	margin-bottom: 100px;
+	margin-left: 775px;
+	border-radius: 20px;
+}
+
+.block4 {
+	width: 650px;
+	height: 200px;
+	background: #fff;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 775px;
+	border-radius: 20px;
+}
+
+.block1 img {
+	width: 200px;
+    height: 200px;	
+	border-radius: 20px;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.block2 img {
+	width: 200px;
+    height: 200px;	
+	border-radius: 20px;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.block3 img {
+	width: 200px;
+    height: 200px;	
+	border-radius: 20px;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.block4 img {
+	width: 200px;
+    height: 200px;	
+	border-radius: 20px;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.block1 h2 {
+	margin-top: -175px;
+	margin-bottom: 100px;
+	margin-left: 225px;
+	font-family:Arial;
+}
+.block2 h2 {
+	margin-top: -175px;
+	margin-bottom: 100px;
+	margin-left: 225px;
+	font-family:Arial;
+}
+.block3 h2 {
+	margin-top: -175px;
+	margin-bottom: 100px;
+	margin-left: 225px;
+	font-family:Arial;
+}
+
+.block4 h2 {
+	margin-top: -175px;
+	margin-bottom: 100px;
+	margin-left: 225px;
+	font-family:Arial;
+}
+
+.block1 h3 {
+	margin-top: -95px;
+	margin-bottom: 100px;
+	margin-left: 225px;
+	color: red;
+	font-family:Arial;
+}
+.block2 h3 {
+	margin-top: -95px;
+	margin-bottom: 100px;
+	margin-left: 225px;
+	color: red;
+	font-family:Arial;
+}
+.block3 h3 {
+	margin-top: -95px;
+	margin-bottom: 100px;
+	margin-left: 225px;
+	color: red;
+	font-family:Arial;
+}
+.block4 h3 {
+	margin-top: -95px;
+	margin-bottom: 100px;
+	margin-left: 225px;
+	color: red;
+	font-family:Arial;
+}
+
+.block1 h4 {
+	margin-top: -95px;
+	margin-bottom: 100px;
+	margin-left: 225px;
+	font-family:Arial;
+}
+
+.block2 h4 {
+	margin-top: -95px;
+	margin-bottom: 100px;
+	margin-left: 225px;
+	font-family:
+}
+
+.block3 h4 {
+	margin-top: -95px;
+	margin-bottom: 100px;
+	margin-left: 225px;
+	font-family:Arial;
+}
+
+.block4 h4 {
+	margin-top: -95px;
+	margin-bottom: 100px;
+	margin-left: 225px;
+	font-family:Arial;
+}
+
 
 
 

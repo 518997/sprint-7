@@ -25,16 +25,24 @@ body{
 }
 
 .langWrap{
+    width: 100%;
     padding: 10px;
-    background: #0b3867
-}
-.active {
-    margin-left: 900px;
-    font-weight: 600;
-    font-size: 20px;
-    color: rgb(216, 68, 68);
+    background: #0b3867;
 }
 
+.active {
+    background-color: rgb(216, 68, 68);
+    font-weight: 600;
+    font-size: 20px;
+    color:  #061b31;
+    padding: 10px;
+    text-align: center;
+}
+
+li .active:hover{
+    color: white;
+
+}
 nav{
     width: 100%;
     float: right;
@@ -190,8 +198,8 @@ background-color: #1409ea;
 
 .container{
     margin-left: 500px;
-    margin-top: 50px;
-    width: 750px;
+    margin-top: 70px;
+    width: 800px;
     height: 500px;
     border: 1px solid;
     background-color: #ffffff;
@@ -237,7 +245,7 @@ background-color: #1409ea;
     padding: 10px 20px;
  }
 
- a-2 {
+#bevestiglink {
     background-color: blueviolet;
     color: white;
     text-align: center;
@@ -247,8 +255,8 @@ background-color: #1409ea;
     font-size: 18px;
     transition: 0.5s;
  }
-
- a-2:hover {
+ 
+#bevestiglink:hover {
     background-color: dodgerblue;
 
  }

@@ -6,30 +6,29 @@
     <link rel="stylesheet" href="la-sarthe-travel.css">
 </head>
 <body>
-    <nav>
-          <div class="langWrap">
-            <a href="#" language="english" class="active">EN</a>
-        </div>
-    </div>
+       <nav>
         <ul>
             <li><img id="logo" src="images/logo.png" alt="La Sarthe "></li>
             <li><a href="Index.html#Home">Home</a></li>
             <li><a href="Michelin.html#Michelin">Michelin</a></li>
             <li><a href="La-Sarthe-Travel.html#La-Sarthe-Travel">La Sarthe Travel</a></li>
             <li><a href="Reserveren.html#Reserveren">Reserveren</a></li>
-             <li class="search-bar">
+              <li> <a href="#" language="english" class="active">EN</a></li>
+            <li class="search-bar">
                 <form action="#" method="get" class="search-form" id="searchForm" onsubmit="return search()">
                     <input type="text" name="q" placeholder="Search..." class="search-input" id="searchInput">
                     <button type="submit" class="search-button">Search</button>
-                    </form>
+                    </form>      
                 </li>
         </ul>
     </nav>
 
     <img class="kaart" src="images/kaart.png.webp" alt="24h Le Mans">
-       
-     <p class="AA_TERTRE_ROUGE"><strong class="title">24 uur van Le Mans</strong> <br><strong class="strong_2">AA-TERTRE ROUGE<br></strong> 
-        Gelegen binnen het circuitterrein, met uitzicht op de Goodyear Voetgangersbrug en de Esses van Tertre Rouge, is dit beboste kampeergebied toegankelijk voor auto's + tent/caravan of camperbusjes.
+
+     <p class="AA_TERTRE_ROUGE"><strong class="title">24 uur van Le Mans</strong> <br>
+    <details>
+      <summary class="strong_2">AA-TERTRE ROUGE<br> </summary>
+       <p class="AA_TERTRE_ROUGE"> Gelegen binnen het circuitterrein, met uitzicht op de Goodyear Voetgangersbrug en de Esses van Tertre Rouge, is dit beboste kampeergebied toegankelijk voor auto's + tent/caravan of camperbusjes.
         Aanbevolen als u toegang wilt tot tribunes Panorama (4), Goodyear (5), het dorp en het amusementsgebied (concert en kermis). <br>
         Vanuit Le Mans, Alençon, Rennes of Parijs moet u de ROUGE-route volgen bij aankomst in de omgeving van het circuit.<br>
              <strong class="strong-underline">Details:<br></strong> 
@@ -37,6 +36,7 @@
             - Prijs per voertuig voor een 35m² niet-genummerde plek (1 ticket = 1 voertuig = 35m²). <br>
             - Sanitaire voorzieningen (douches en toiletten). Geen elektriciteitsvoorziening.<br>
             - Algemene toegang voor voetgangers is niet inbegrepen, u moet er een hebben om de camping te betreden.</p>
+          </p>  </details>
 <script>
     const langEl = document.querySelector('.langWrap');
     const links = document.querySelectorAll('a');
@@ -67,13 +67,18 @@
     });
 </script>
 
-     <p class="P-EXPO"><strong class="strong"> P–PANORAMA<br>(parkeerplaats)<br>P-EXPO<br></strong>Dit is een van de kleinere locaties en ligt buiten het circuit, maar op slechts een paar minuten lopen van de hoofdingang en het automuseum. 
+     <details>
+      
+
+      <summary strong class="strong"> P–PANORAMA<br>(parkeerplaats)<br>P-EXPO<br></strong>  </summary>
+       <p class="P-EXPO">Dit is een van de kleinere locaties en ligt buiten het circuit, maar op slechts een paar minuten lopen van de hoofdingang en het automuseum. 
         Op het eerste gezicht ziet deze plek er niet erg charmant uit, maar het heeft zeker een paar voordelen. Er zijn veel vee schuren op dit veld, waarin veel mensen hun tent opzetten en wat een groot voordeel kan zijn als het zwaar regent
         (droog eetgedeelte, droge tenten) of als het extreem heet is (schaduw). Een ander voordeel is dat er hoge hekken rondom zijn en geen voetgangersverkeer, daarom kan de beveiliging hoger worden ingeschat dan op andere campings.
         Veel van de grond is beton en zelfs op de niet-betonnen gebieden is het een uitdaging om tentpinnen in de grond te krijgen. Sommige mensen nemen een draadloze boorhamer mee om de gaten voor de pinnen te maken.
         Het is gemakkelijk te vinden en toegankelijk met de auto, omdat het vlakbij de hoofdingang ligt, maar u kunt wat verkeersopstoppingen verwachten rond de ingang tijdens het weekend.
         Voorzieningen zoals toiletten en douches zijn voldoende en over het algemeen zeer schoon gehouden. Watervoorziening is goed en het is de moeite waard om wat kabel en Franse adapters mee te nemen, want met een beetje geluk kunt u wat elektriciteit aftappen. 
-     </p>
+     </p></p>
+     </details>
      
      <p class="AA-GARAGE-VERT"><strong class="strong-green">AA-GARAGE VERT<br></strong> Gelegen in het hart van het circuit en vlakbij het eindpunt van de tram (Antarès/MMArena), is dit kampeergebied toegankelijk voor auto's + tent/caravan of camperbusjes aanbevolen als u toegang wilt tot tribunes (34), het dorp en de paddocks.<br>
         Vanuit Tours of Orléans moet u de VERT-route volgen bij aankomst in de omgeving van het circuit.<br>

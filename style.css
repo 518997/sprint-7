@@ -23,16 +23,23 @@ body{
     
 
 }
-
 .langWrap{
+    width: 100%;
     padding: 10px;
-    background: #0b3867
+    background: #0b3867;
 }
 .active {
-    margin-left: 900px;
+    background-color: rgb(216, 68, 68);
     font-weight: 600;
     font-size: 20px;
-    color: rgb(216, 68, 68);
+    color:  #061b31;
+    padding: 10px;
+    text-align: center;
+}
+
+li .active:hover{
+    color: white;
+
 }
 nav{
     width: 100%;

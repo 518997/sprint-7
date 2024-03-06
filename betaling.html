@@ -7,26 +7,22 @@
     <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID"></script>
 </head>
 <body>
-    <nav>
-            <div class="langWrap">
-            <a href="#" language="english" class="active">EN</a>
-        </div>
-    </div>
+       <nav>
         <ul>
             <li><img id="logo" src="images/logo.png" alt="La Sarthe "></li>
             <li><a href="Index.html#Home">Home</a></li>
             <li><a href="Michelin.html#Michelin">Michelin</a></li>
             <li><a href="La-Sarthe-Travel.html#La-Sarthe-Travel">La Sarthe Travel</a></li>
-            <li><a href="Reserverenr.html#Reserveren">Reserveren</a></li>
-             <li class="search-bar">
+            <li><a href="Reserveren.html#Reserveren">Reserveren</a></li>
+              <li> <a href="#" language="english" class="active">EN</a></li>
+            <li class="search-bar">
                 <form action="#" method="get" class="search-form" id="searchForm" onsubmit="return search()">
                     <input type="text" name="q" placeholder="Search..." class="search-input" id="searchInput">
                     <button type="submit" class="search-button">Search</button>
-                    </form>
+                    </form>      
                 </li>
         </ul>
     </nav>
-
     
     <h2 class="bestelling">Bestelling inleveren binnen 5 werkdagen</h2>
         <h2 class="reservering">Reserveringsdetails</h2>
@@ -102,20 +98,34 @@
                     <div class="kaarten">
                         <img src="images/mc.png" alt="">
                         <img src="images/vi.png" alt="">
-                        <img src="images/pp.png" alt="">
+                        <img src="images/pp.png" alt="">  
 
                 </div>
             </div>
         </div>
-        <a-2 href="">Bevestig</a-2>
+        <a id="bevestiglink" href="bevestigingbetaling.html">Bevestig</a>    
     </dv>
-    
+
+     <script>
+        // Get the "Bevestig" link by its ID
+        var bevestigLink = document.getElementById("bevestigLink");
+
+        // Add event listener to the "Bevestig" link
+        bevestigLink.addEventListener("click", function(event) {
+            // Prevent the default behavior of the link (i.e., following the href)
+            event.preventDefault();
+            
+            // Redirect the user to the confirmation page
+            window.location.href = "bevestigingbetaling.html";
+        });
+    </script>
     
     <footer>
         <p class="project">Project: Rana, Mariska, Rianne, Sagaana </p>
      </footer>
 
      <script src="script.js"></script>
+     
 </body>
 </html>
 
