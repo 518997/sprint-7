@@ -182,8 +182,12 @@ background-color: #1409ea;
 }
 
 .Le-mans{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
+}
+
+.Michelin-Feesttent {
+    font-size: 30px;
 }
 
 
@@ -221,14 +225,29 @@ div.logo img {
 	width: 100%;
 }
 
+section .block1 {
+    margin-top: 100px;
+   margin-right: 200px;
+
+   margin: 100px;
+   
+}
+
+section .block2 {
+    margin-top: 100px;
+    margin-right: 200px;
+    margin: 100px;
+    
+  }
+
+
+
 section.content {
 	
 	background-image: url("../images/24-heures.jpg");
 	background-size: cover;
 	height: 600px;
 }
-
-
 
 
 div.textphoto {
@@ -238,13 +257,6 @@ div.textphoto {
 	
 }
 
-
-.content2 {
-    position: float;
-    width:950px;
-    height:215px;
-    color:red;
-}
 
 .footer {
     color: #fff;
@@ -406,22 +418,20 @@ div.textphoto {
 	font-family:Arial;
 }
 
-
-
-
-
-
-
-
-
-
-
 .project {
+    margin-bottom: 0px;
     text-align: center;
     font-size: 20px;
     background-color: #061b31;
-    padding: 70px;
+    padding: 15px;
     color: #f7eded;
+}
+
+
+.Michelin-logo {
+    height: 110px;
+    width: 130px;
+    margin-left: 1000px;
 }
 
 

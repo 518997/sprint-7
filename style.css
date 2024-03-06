@@ -179,8 +179,12 @@ background-color: #1409ea;
 }
 
 .Le-mans{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
+}
+
+.Home {
+    font-size: 30px;
 }
 
 
@@ -247,6 +251,7 @@ background-color: #1409ea;
 
 
 .project {
+    margin-bottom: 0px;
     text-align: center;
     font-size: 20px;
     background-color: #061b31;
