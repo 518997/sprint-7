@@ -166,10 +166,11 @@ background-color: #1409ea;
 
 
 .kaart{
-    width: 60%;
-    margin-top: 50px;
+    height: 600px;
+    width: 80%;
+    margin-top: 0;
     margin-bottom: 50px;
-    margin-left: 400px;
+    margin-left: 200px;
 }
 
 .AA_TERTRE_ROUGE {
