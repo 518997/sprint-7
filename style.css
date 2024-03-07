@@ -221,14 +221,14 @@ background-color: #1409ea;
 }
 
 .container-1 .tekst {
-    flex: 1; /* De tekst neemt alle beschikbare ruimte in de container in beslag */
+    flex: 1;      /* De tekst neemt alle beschikbare ruimte in de container in beslag */
 
 }
 
 
 .container-2 {
     display: flex;
-    align-items: center; /* Centreren van de items in de container */
+    align-items: center;    /* Centreren van de items in de container */
     color: #f7eded;
     margin: 40px;
 
@@ -236,9 +236,9 @@ background-color: #1409ea;
  }    
 
 .container-2 img {
-    width: 50%; /* Pas de breedte van de afbeelding aan naar jouw wens */
-    height: 1000px; /* Behoud de aspectverhouding */
-    margin-top: 200px; /* Spacing tussen de afbeelding en de tekst */
+    width: 50%;                       /* Pas de breedte van de afbeelding aan naar jouw wens */
+    height: 1000px;                   /* Behoud de aspectverhouding */
+    margin-top: 200px;                /* Spacing tussen de afbeelding en de tekst */
     margin-right: 40px;
 } 
 

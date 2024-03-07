@@ -1,0 +1,177 @@
+ /* stijlen voor bevestigingbetalingbetaling */
+
+html{
+    height: 100%;
+    width: 100%;
+    background-color: #3c444d;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    overflow: auto;
+    border: 1px solid;
+    overflow: inherit;
+    
+
+}
+.langWrap{
+    width: 100%;
+    padding: 10px;
+    background: #0b3867;
+}
+.active {
+    background-color: rgb(216, 68, 68);
+    font-weight: 600;
+    font-size: 20px;
+    color:  #061b31;
+    padding: 10px;
+    text-align: center;
+}
+
+li .active:hover{
+    color: white;
+
+}
+nav{
+    width: 100%;
+    float: right;
+    background-color: #061b31;
+}
+
+ nav ul{
+    text-align: center;
+    margin: 18px;
+    padding-left: 0;
+    
+    
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    height: 45px;
+    background:#061b31;
+}
+
+nav ul li a{
+    padding-right: 10px;
+
+}
+
+li{
+ margin: 8px;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+ 
+ a{
+    color: #f7eded;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+
+nav ul li a:hover{
+    opacity: 1;
+    color: #db545a;
+}
+
+#logo{
+    margin-top: -25px;
+    height: 145px;
+    width: 145px;
+    float: right;
+    margin-right: 700px;
+    
+}
+
+.search-li {
+list-style-type: none;
+
+}
+
+.search-form {
+position: relative;
+display: inline-block;
+margin-left: 1300px;
+}
+
+.search-input {
+
+width: 200px;
+
+height: 30px;
+
+padding: 5px;
+
+border: 1px solid rgba(77, 77, 255, 0.7);
+
+border-radius: 15px;
+
+font-size: 14px;
+
+background-color: rgba(106, 122, 203, 0.5);
+
+outline: none;
+
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.search-button {
+
+position: absolute;
+
+right: 10px;
+
+top: 50%;
+
+transform: translateY(-50%);
+
+padding: 5px 10px;
+
+background-color: rgba(0, 0, 0, 0.7);
+
+color: #ffffff;
+
+border: none;
+
+border-radius: 20px;
+
+cursor: pointer;
+
+font-size: 15px;
+
+outline: none;
+
+}
+
+.search-button:hover {
+
+background-color: #1409ea;
+
+}
+
+
+
+
+
+.project {
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #061b31;
+    padding: 70px;
+    color: #f7eded;
+}

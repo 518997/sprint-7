@@ -23,13 +23,11 @@ body{
     
 
 }
-
 .langWrap{
     width: 100%;
     padding: 10px;
     background: #0b3867;
 }
-
 .active {
     background-color: rgb(216, 68, 68);
     font-weight: 600;
@@ -48,9 +46,10 @@ nav{
     float: right;
     background-color: #061b31;
 }
+
  nav ul{
     text-align: center;
-    margin: 40px;
+    margin: 18px;
     padding-left: 0;
     
     
@@ -99,17 +98,14 @@ nav ul li a:hover{
 }
 
 .search-li {
-
 list-style-type: none;
 
 }
 
 .search-form {
-
 position: relative;
-margin-left: 1300px;
 display: inline-block;
-
+margin-left: 1300px;
 }
 
 .search-input {
@@ -418,17 +414,20 @@ div.textphoto {
 	font-family:Arial;
 }
 
+
 .project {
+    height: 35px;
     margin-bottom: 0px;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     background-color: #061b31;
-    padding: 15px;
+    padding: 70px;
     color: #f7eded;
 }
 
 
 .Michelin-logo {
+    padding: 100px;
     height: 110px;
     width: 130px;
     margin-left: 1000px;
