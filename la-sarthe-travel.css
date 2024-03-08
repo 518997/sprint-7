@@ -172,10 +172,11 @@ background-color: #1409ea;
 }
 
 .AA_TERTRE_ROUGE {
+    
     color: #f7eded;
     font-size: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 500px;
 }
 
@@ -183,7 +184,7 @@ background-color: #1409ea;
     color: #f7eded;
     font-size: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 500px;
 }
 
@@ -191,7 +192,7 @@ background-color: #1409ea;
     color: #f7eded;
     font-size: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 500px;
 }
 
@@ -199,7 +200,7 @@ background-color: #1409ea;
     color: #f7eded;
     font-size: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 500px;
 }
 
@@ -207,7 +208,7 @@ background-color: #1409ea;
     color: #f7eded;
     font-size: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 500px;
 }
 
@@ -215,7 +216,7 @@ background-color: #1409ea;
     color: #f7eded;
     font-size: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 500px;
 }
 
@@ -223,7 +224,7 @@ background-color: #1409ea;
     color: #f7eded;
     font-size: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 500px;
 }
 
@@ -231,7 +232,7 @@ background-color: #1409ea;
     color: #f7eded;
     font-size: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 500px;
 }
 
@@ -239,7 +240,7 @@ background-color: #1409ea;
     color: #f7eded;
     font-size: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 500px;
 }
 
@@ -247,7 +248,7 @@ background-color: #1409ea;
     color: #f7eded;
     font-size: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 500px;
 }
 
@@ -255,7 +256,7 @@ background-color: #1409ea;
     color: #f7eded;
     font-size: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 500px;
 }
 
@@ -263,7 +264,7 @@ background-color: #1409ea;
     color: #f7eded;
     font-size: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 500px;
 }
 
@@ -271,32 +272,40 @@ background-color: #1409ea;
     color: #f7eded;
     font-size: 20px;
     line-height: 1.5;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-right: 500px;
 }
 
 .title{
+    color: #ffffff;
+    margin-left: 50px;
     font-size: 50px;
+    font-weight: 600;
+    margin-left: 50px;
 }
 
 .strong_2{
+        margin-left: 50px;
         font-size: 35px;
         font-weight: 600;
         color: rgb(237, 23, 23);
 }
 .strong{
+        margin-left: 50px;
         font-size: 35px;
         font-weight: 600;
         color: rgb(237, 23, 23);
 }
 
 .strong-yellow{
+    margin-left: 50px;
     font-size: 35px;
     font-weight: 600;
     color: rgb(214, 237, 110);
 }
 
 .strong-green{
+        margin-left: 50px;
         font-size: 35px;
         font-weight: 600;
         color: rgb(22, 200, 66);
