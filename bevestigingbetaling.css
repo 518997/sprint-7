@@ -151,7 +151,8 @@ background-color: transparent;
 cursor: pointer;
 }
 
-.inhoud {
+.inleiding {
+    height: 500px;
     color: #fff;
     line-height: 1.5;
     margin-top: 250px;
