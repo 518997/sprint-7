@@ -97,74 +97,89 @@ nav ul li a:hover{
     
 }
 
-.search-li {
-list-style-type: none;
-
-}
-
-.search-form {
-position: relative;
-display: inline-block;
-margin-left: 1300px;
-}
-
-.search-input {
-
-width: 200px;
-
-height: 30px;
-
-padding: 5px;
-
-border: 1px solid rgba(77, 77, 255, 0.7);
-
-border-radius: 15px;
-
-font-size: 14px;
-
-background-color: rgba(106, 122, 203, 0.5);
-
-outline: none;
-
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-
-.search-button {
+.search-box {
 
 position: absolute;
 
-right: 10px;
+top: 50px;
 
-top: 50%;
+right: 900px;
 
-transform: translateY(-50%);
+display: flex;
 
-padding: 5px 10px;
+align-items: center;
 
-background-color: rgba(0, 0, 0, 0.7);
+background-color: #ffffff;
 
-color: #ffffff;
-
-border: none;
+padding: 5px;
 
 border-radius: 20px;
 
-cursor: pointer;
+overflow: hidden;
 
-font-size: 15px;
+transition: width 0.3s ease, padding 0.3s ease;
+
+z-index: 999;
+
+}
+
+.search-box i {
+
+padding: -5px;
+
+margin: -0;
+
+}
+
+#searchInput {
+
+width: 150px;
+
+border: 0;
+
+background-color: transparent;
+
+font-size: 16px;
+
+width: 0;
+
+transition: width 0.3s ease;
+
+margin-left: 10px;
 
 outline: none;
 
 }
 
-.search-button:hover {
+.search-box button {
 
-background-color: #1409ea;
+padding: 10px;
+
+border: 0;
+
+background-color: #3c1053;
+
+color: #fff;
+
+font-size: 16px;
+
+border-radius: 50%;
+
+cursor: pointer;
+
+outline: none;
 
 }
 
+button {
 
+border: 0;
+
+background-color: transparent;
+
+cursor: pointer;
+
+}
 .heures {
     width: 100%;
 }
@@ -260,82 +275,88 @@ background-color: #1409ea;
 }
 
 
-@media (max-width:1023px){
-    header{
-        padding: 12px 20px;
-    }
+@media screen and (max-width: 1023px) {
 
-    .navigation {
-        padding-left: 10px;
-    }
+body{
 
-    .title {
-        font-size: 1.8;
-    }
-
-    .section {
-        padding: 80px 20px;
-    }
-
-    .main-content h2 {
-        font-size: 1em;
-
-    }
-
-    .main-content h3 {
-        font-size: 1.6em;
-    }
-
-    .content {
-        flex-direction: column;
-        align-items: center;
-    }
+font-size: 10px;
 
 }
 
-@media (max-width:641px) {
-    body {
-        font-size: 12px;
-    }
+a{
 
-    .main-content h2{
-        font-size: 0.8em;
-
-    }
-
-    .main-content h3 {
-        font-size: 1.4em;
-    }
-
-    .content {
-        flex-direction: column;
-        text-align: center;
-    }
+font-size: 15px;
 
 }
 
-@media (max-width:300px) {
+.inleiding{
 
-    .body {
-        font-size: 5px;
+font-size: 15px;
 
-    }
-
-    .main-content h2 {
-        font-size: 0.3em;
-    }
-
-    .main-content h3 {
-        font-size: 0.7em;
-    }
-
-    .content {
-        flex-direction: column;
-        text-align: center;
-    }
 }
 
+.inleiding_2{
 
+font-size: 15px;
+
+}
+
+}
+
+@media screen and (max-width: 641px) {
+
+body{
+
+font-size: 7px;
+
+}
+
+a {
+
+font-size: 10px;
+
+}
+
+.inleiding{
+
+font-size: 10px;
+
+}
+
+.inleiding_2{
+
+font-size: 10px;
+}
+
+}
+
+@media screen and (max-width: 300px) {
+
+body{
+
+font-size:5 px;
+
+}
+
+a{
+
+font-size: 5px;
+
+}
+
+.inleiding{
+
+font-size: 5px;
+
+}
+
+.inleiding_2{
+
+font-size: 5px;
+
+}
+
+}
 
     
     
