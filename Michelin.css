@@ -147,7 +147,6 @@ outline: none;
 }
 
 button {
-
 border: 0;
 background-color: transparent;
 cursor: pointer;
@@ -242,20 +241,13 @@ div.textphoto {
 	
 }
 
-
-.footer {
-    color: #fff;
-    background: #061b31;
-    height: 100px;
-}
-
 .block1 {
 	width: 650px;
 	height: 200px;
 	background: #fff;
 	margin-top: -100px;
 	margin-bottom: 100px;
-	margin-left: 25px;
+	margin-left: 50px;
 	border-radius: 20px;
 }
 .block2 {
@@ -264,7 +256,7 @@ div.textphoto {
 	background: #fff;
 	margin-top: 20px;
 	margin-bottom: 100px;
-	margin-left: 25px;
+	margin-left: 50px;
 	border-radius: 20px;
 }
 
@@ -274,7 +266,7 @@ div.textphoto {
 	background: #fff;
 	margin-top: -600px;
 	margin-bottom: 100px;
-	margin-left: 775px;
+	margin-left: 1000px;
 	border-radius: 20px;
 }
 
@@ -284,7 +276,7 @@ div.textphoto {
 	background: #fff;
 	margin-top: 100px;
 	margin-bottom: 100px;
-	margin-left: 775px;
+	margin-left: 1000px;
 	border-radius: 20px;
 }
 
@@ -403,23 +395,23 @@ div.textphoto {
 	font-family:Arial;
 }
 
-
-.project {
-    height: 35px;
-    margin-bottom: 0px;
-    text-align: center;
-    font-size: 30px;
+.footer {
+    display: flex;
+    justify-content: space-between;
     background-color: #061b31;
-    padding: 70px;
+}
+
+.Project {
+	margin-left: 650px;
+    font-size: 20px;
     color: #f7eded;
 }
 
-
 .Michelin-logo {
-    padding: 100px;
-    height: 110px;
+	margin-right: 100px;
     width: 130px;
-    margin-left: 1000px;
+    height: 120px;
+	
 }
 
 @media screen and (max-width: 1023px) {
